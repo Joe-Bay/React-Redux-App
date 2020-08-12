@@ -16,7 +16,7 @@ const filterArray = props.anime.filter(item => item.title.includes('Bleach'))
             {props.anime.length  > 0 ? (
             <div className='cards-container'>
                 {filterArray.map(item => (
-                        <div>
+                        <div className='card'>
                             <img src={item.image_url} alt={item.title} />
                             <h2>{item.title}</h2>
                             <h4>{item.type}</h4>

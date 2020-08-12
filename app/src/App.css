@@ -1,8 +1,25 @@
 .App {
   text-align: center;
+  
+}
+.App h1{
+  font-size: 3rem;
+  color:white;
+}
+body{
+  background: slategray;
+}
+.card {
+background-color: snow;
+margin: 0 20%;
+margin-bottom: 5%;
+border: 1px solid black;
+box-shadow: 3px 3px ;
 }
 
-
+.card h2{
+  font-size: 2rem;
+}
 
 .App-header {
 text-align: center
